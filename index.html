@@ -9,23 +9,22 @@
         <meta property="og:title" content="KirbyYourMom's personal website" />
         <meta property="og:url" content="https://kirbyyourmom.github.io/" />
         <meta property="og:image" content="/assets/kirby.jpg?raw=true" />
+        <meta
+            property="og:description"
+            content="A website with few of my achievements and projects. A portfolio in other terms."
+        />
         <style>
-            .under-construction {
+            #under-construction {
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 border-radius: 16px;
             }
-
-            .rickroll:hover {
-                cursor: default;
-            }
         </style>
     </head>
     <body>
-        <a class="rickroll" href="https://www.youtube.com/watch?v=iik25wqIuFo">
-            <img class="under-construction" src="assets/kirby.gif" />
-        </a>
+        <img id="under-construction" src="assets/kirby.gif" />
+        <script src="index.js"></script>
     </body>
 </html>
